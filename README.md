@@ -1,4 +1,4 @@
-# ProPra 16 Abschlussprojekt - OpenSourceIsCommunism README
+# ProPra 16 Abschlussprojekt - ZeNAMiKe README
 
 ## Team members
 Nadine Foerster, Micheael Liske, Kevin Dreyer, Zeljko Bekcic
