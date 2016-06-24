@@ -1,7 +1,5 @@
 package de.hhu.propra.tddt.plugin;
 
-import java.nio.file.Path;
-
 /**
  * Created by zeljko On 23.06.2016
  */
@@ -22,27 +20,23 @@ import java.nio.file.Path;
 public interface PluginManager {
 
     /**************************************************************************
-     * Method: giveSource
+     * Method: getSource
      * <p>
      * Gives the plugin the Information it needs to work.
-     *
-     * @param source the source you want to pass to the plugin
-     **************************************************************************/
-    public void giveSource(String source);
+     ***************************************************************************/
+    public void getSource();
 
     /**************************************************************************
      * Method: modifySource
      * <p>
      * Modifies the source based on the result of the plugins
+     *
+     * @param string
      **************************************************************************/
-    public void modifySource();
+    public void modifySource(String string);
 
-    /**************************************************************************
-     * Method: load
-     *
-     * This method loads an Plugin from a specified destination.
-     *
-     * @param pathtoplugin the path to a plugin you want to load
-     **************************************************************************/
-    public Plugin load(Path pathtoplugin);
+    /*
+     * @TODO
+     * Think of what other information the plugins may need
+     */
 }

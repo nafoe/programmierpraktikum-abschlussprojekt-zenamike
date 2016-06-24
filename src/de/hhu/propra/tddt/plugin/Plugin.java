@@ -18,30 +18,9 @@ package de.hhu.propra.tddt.plugin;
 public interface Plugin {
 
     /**************************************************************************
-     * Method: provideSource
-     * <p>
-     * Plugins will in this project mainly interact with the code written by the
-     * user, so if a plugin needs to access the code (e.g. for the suggestions
-     * for auto-completion) it will happen through this method.
-     *
-     * @param code the code written by the user of this tool.
-     **************************************************************************/
-    public void provideSource(String code);
-
-    /**************************************************************************
-     * Method: modifySource
-     * <p>
-     * If a plugin wants to modify the code it has to happen with this method.
-     * With this method the plugin can modify the code.
-     *
-     * @param source
-     **************************************************************************/
-    public void modifySource(String source);
-
-    /**************************************************************************
      * Method: start
      * <p>
-     * Starting a plugin requiers this method.
+     * Starting a plugin requires this method.
      **************************************************************************/
     public void start();
 
@@ -53,4 +32,14 @@ public interface Plugin {
      **************************************************************************/
     public void stop();
 
+    /**************************************************************************
+     * Method: setPluginManager
+     *
+     * To let the Plugin interact with the program we need to give something
+     * with what it can work. The PluginManager is the best 'something' because
+     * it knows what kind of information the Plugins are allowed to get. And with
+     * the plugin manager We have specified what information the plugins are
+     * allowed to use.
+     **************************************************************************/
+    public void setPluginManager(PluginManager pluginManager);
 }
