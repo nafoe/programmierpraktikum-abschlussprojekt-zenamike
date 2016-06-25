@@ -3,26 +3,83 @@ package de.hhu.propra.tddt.cycle;
 /**
  * Created by Subject-16 on 25.06.2016.
  */
+
+/*********************************************************
+ * Class: Refactor
+ *
+ * Task: Everything regarding the refactor phase of the program
+ * will happen here. Entering the refactor phase and leaving it
+ * means the user code and test have to be checked.
+ *
+ *
+ * @author Kevin
+ ********************************************************/
 public class Refactor extends AbstractCycleElement {
+
+    /*********************************************************
+     * Method: moveToNextPhase
+     *
+     * Button click event handler, calls compileCode and runTest
+     * only if both return true, the user is allow to move on.
+     *
+     * @return: void
+     ***************************************************************/
 
     @Override
     public void moveToNextPhase() {
-        /*button click event in order to tell program the user is ready to advance*/
+
     }
+
+    /*********************************************************
+     * Method: compileCode
+     *
+     * does what the name says, uses virtual kata.
+     *
+     * @return: boolean expression
+     ***************************************************************/
+
 
     @Override
-    public void compileCode(){
-        /*uses virtual kata here*/
+    public boolean compileCode(){
 
+        return false;
     }
+
+    /*********************************************************
+     * Method: runTest
+     *
+     * re-checks so that after the improvement of the code,
+     * the program is still working
+     *
+     * @return: boolean expression
+     ***************************************************************/
 
     @Override
-    public void runTest(){
-        /*re-check so that after the improvement of the code, the program is still working*/
+    public boolean runTest(){
+
+        return false;
     }
+
+    /*********************************************************
+     * Method: improveCode
+     *
+     * User is allowed to improve their code in order to
+     * start a new cycle or finish the exercise
+     *
+     * @return: boolean expression
+     ***************************************************************/
 
     public void improveCode(){
-        /*User is allowed to improve their code in order to start a new cycle or finish the exercise*/
+
     }
+
+    /**
+    * @TODO:
+     * fill the class with code
+     * think about the abstract class
+     * are more methods needed?
+    * **/
+
+
 
 }
