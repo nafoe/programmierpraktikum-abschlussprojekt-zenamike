@@ -6,7 +6,7 @@ package de.hhu.propra.tddt.plugin;
 
 /*
  * The link which influenced this and my idea of a Plugin (and probably the
- * PluginManager) is this one:   
+ * PluginManager) is this one:
  * https://wiki.byte-welt.net/wiki/Java-Programme_durch_PlugIns_erweitern
  */
 

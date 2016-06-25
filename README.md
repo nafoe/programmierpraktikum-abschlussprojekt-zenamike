@@ -1,7 +1,7 @@
-# ProPra 16 Abschlussprojekt - ZeNAMiKe README
+# ProPra 16 Abschlussprojekt - ZeNaMiKe README
 
 ## Team members
-Nadine Foerster, Micheael Liske, Kevin Dreyer, Zeljko Bekcic
+Nadine Foerster, Michael Liske, Kevin Dreyer, Zeljko Bekcic
 
 ## License
-This project is licensed unter the MIT-LICENSE
+This project is licensed under the MIT-LICENSE
