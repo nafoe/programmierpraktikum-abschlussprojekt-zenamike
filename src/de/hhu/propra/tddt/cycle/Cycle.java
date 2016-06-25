@@ -8,7 +8,7 @@ package de.hhu.propra.tddt.cycle;
 /*********************************************************
  * Class: Cycle
  *
- * Task: Class the other class objects. The whole process
+ * Task: Class handling the other class objects. The whole process
  * should happen here. Probably needs additional help functions
  * The javaFX magics gonna happen here (responding to the gui)
  *
